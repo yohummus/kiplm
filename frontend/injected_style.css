@@ -1,0 +1,198 @@
+/*============================================================*/
+/* COMMON STYLES                                              */
+/*============================================================*/
+
+.kiplm-ui {
+    display: inline;
+    float: right;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+}
+
+/* Status pill (shows the IPN) */
+.kiplm-status {
+    border: none;
+    border-radius: 2px;
+    background-image: linear-gradient(#D2E9E9, #C4DFDF);
+    padding: 3px 10px;
+}
+
+.kiplm-status-spinner {
+    margin-right: 8px;
+}
+
+/* Buttons */
+.kiplm-button-div {
+    display: inline-block;
+}
+
+.kiplm-button {
+    border: 1px solid #999;
+    border-radius: 4px;
+    background-image: linear-gradient(#D2E9E9, #C4DFDF);
+    margin-left: 8px;
+    padding: 3px 10px;
+}
+
+.kiplm-button:not(:disabled):hover {
+    background: #B3C8CF;
+}
+
+.kiplm-button:not(:disabled):active {
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+
+.kiplm-button:focus {
+    outline: 1px solid #4c8bf5;
+}
+
+.kiplm-button:disabled {
+    color: #888888;
+}
+
+.kiplm-button-spinner {
+    margin-right: 8px;
+}
+
+.kiplm-button-caret {
+    margin-left: 8px;
+}
+
+/* Dropdown menus */
+.kiplm-dropdown {
+    display: none;
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 4px;
+    background-color: #f1f1f1;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    z-index: 1000;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.kiplm-dropdown.kiplm-dropdown-show {
+    display: block;
+}
+
+.kiplm-dropdown a {
+    color: black;
+    padding: 4px 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.kiplm-dropdown a:first-child {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.kiplm-dropdown a:last-child {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.kiplm-dropdown a:hover {
+    background-image: linear-gradient(#D2E9E9, #C4DFDF);
+}
+
+/* Modals */
+.kiplm-modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.kiplm-modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: fit-content;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.kiplm-modal-heading {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333333;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.kiplm-modal-select {
+    width: 80px;
+    text-align: center;
+}
+
+.kiplm-modal-input {
+    width: 60px;
+    text-align: center;
+}
+
+.kiplm-modal-input:invalid {
+    border: 1px solid red;
+    border-radius: 4px;
+    background-color: lightpink
+}
+
+.kiplm-ipn-dash {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.kiplm-modal-error-label {
+    color: red;
+    margin-top: 10px;
+}
+
+.kiplm-modal-error-text {
+    margin-left: 8px;
+}
+
+.kiplm-modal-buttons {
+    margin-top: 10px;
+    text-align: right
+}
+
+
+/*============================================================*/
+/* MOUSER-SPECIFIC STYLES                                    */
+/*============================================================*/
+
+.pdp-product-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 8px 4px 15px;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+
+/*============================================================*/
+/* DIGIKEY-SPECIFIC STYLES                                    */
+/*============================================================*/
+
+[class$="mfrProdNumHeader"] {
+    width: 100% !important;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+[class$="mfrProdNumHeader"] .kiplm-ui {
+    margin-top: -4px;
+}

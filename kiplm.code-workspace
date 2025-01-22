@@ -1,0 +1,17 @@
+{
+  "folders": [{ "path": "." }],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true,
+      "**/.DS_Store": true,
+      "**/Thumbs.db": true,
+      "**/__pycache__": true
+    },
+    "files.associations": {
+      "*.kicad_dbl": "json"
+    },
+    "[yaml]": {
+      "editor.formatOnSave": false
+    }
+  }
+}

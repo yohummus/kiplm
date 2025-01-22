@@ -1,0 +1,5 @@
+aiohttp~=3.11.11 
+argcomplete~=3.5.3
+asyncinotify~=4.0.0
+colorama~=0.4.6
+pandas~=2.2.3

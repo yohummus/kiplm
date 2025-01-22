@@ -1,0 +1,1488 @@
+{
+  "meta": {
+    "version": 0
+  },
+  "name": "KiPLM components database",
+  "description": "KiPLM components database",
+  "source": {
+    "type": "odbc",
+    "dsn": "",
+    "username": "",
+    "password": "",
+    "timeout_seconds": 2,
+    "connection_string": "DRIVER={SQLite3};DATABASE=${CWD}/parts.sqlite"
+  },
+  "libraries": [
+    {
+      "name": "ANA",
+      "table": "ANA",
+      "key": "IPN",
+      "symbols": "Symbol",
+      "footprints": "Footprint",
+      "fields": [
+        {
+          "column": "IPN",
+          "name": "IPN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "MPN",
+          "name": "MPN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Manufacturer",
+          "name": "Manufacturer",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Description",
+          "name": "Description",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Symbol",
+          "name": "Symbol",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Footprint",
+          "name": "Footprint",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Datasheet",
+          "name": "Datasheet",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Mouser-PN",
+          "name": "Mouser-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "DigiKey-PN",
+          "name": "DigiKey-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        }
+      ]
+    },
+    {
+      "name": "ART",
+      "table": "ART",
+      "key": "IPN",
+      "symbols": "Symbol",
+      "footprints": "Footprint",
+      "fields": [
+        {
+          "column": "IPN",
+          "name": "IPN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Description",
+          "name": "Description",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Symbol",
+          "name": "Symbol",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Footprint",
+          "name": "Footprint",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Comments",
+          "name": "Comments",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        }
+      ]
+    },
+    {
+      "name": "CAP",
+      "table": "CAP",
+      "key": "IPN",
+      "symbols": "Symbol",
+      "footprints": "Footprint",
+      "fields": [
+        {
+          "column": "IPN",
+          "name": "IPN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "MPN",
+          "name": "MPN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Manufacturer",
+          "name": "Manufacturer",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Description",
+          "name": "Description",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Symbol",
+          "name": "Symbol",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Footprint",
+          "name": "Footprint",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Capacitance",
+          "name": "Capacitance",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Voltage",
+          "name": "Voltage",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Material",
+          "name": "Material",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Tolerance",
+          "name": "Tolerance",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Package",
+          "name": "Package",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Datasheet",
+          "name": "Datasheet",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Mouser-PN",
+          "name": "Mouser-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "DigiKey-PN",
+          "name": "DigiKey-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        }
+      ]
+    },
+    {
+      "name": "CON",
+      "table": "CON",
+      "key": "IPN",
+      "symbols": "Symbol",
+      "footprints": "Footprint",
+      "fields": [
+        {
+          "column": "IPN",
+          "name": "IPN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "MPN",
+          "name": "MPN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Manufacturer",
+          "name": "Manufacturer",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Description",
+          "name": "Description",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Symbol",
+          "name": "Symbol",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Footprint",
+          "name": "Footprint",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Pins",
+          "name": "Pins",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Datasheet",
+          "name": "Datasheet",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Mouser-PN",
+          "name": "Mouser-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "DigiKey-PN",
+          "name": "DigiKey-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        }
+      ]
+    },
+    {
+      "name": "CPD",
+      "table": "CPD",
+      "key": "IPN",
+      "symbols": "Symbol",
+      "footprints": "Footprint",
+      "fields": [
+        {
+          "column": "IPN",
+          "name": "IPN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "MPN",
+          "name": "MPN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Manufacturer",
+          "name": "Manufacturer",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Description",
+          "name": "Description",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Symbol",
+          "name": "Symbol",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Footprint",
+          "name": "Footprint",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Datasheet",
+          "name": "Datasheet",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Mouser-PN",
+          "name": "Mouser-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "DigiKey-PN",
+          "name": "DigiKey-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        }
+      ]
+    },
+    {
+      "name": "DIO",
+      "table": "DIO",
+      "key": "IPN",
+      "symbols": "Symbol",
+      "footprints": "Footprint",
+      "fields": [
+        {
+          "column": "IPN",
+          "name": "IPN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "MPN",
+          "name": "MPN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Manufacturer",
+          "name": "Manufacturer",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Description",
+          "name": "Description",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Symbol",
+          "name": "Symbol",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Footprint",
+          "name": "Footprint",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Current",
+          "name": "Current",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Voltage",
+          "name": "Voltage",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Datasheet",
+          "name": "Datasheet",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Mouser-PN",
+          "name": "Mouser-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "DigiKey-PN",
+          "name": "DigiKey-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        }
+      ]
+    },
+    {
+      "name": "ICS",
+      "table": "ICS",
+      "key": "IPN",
+      "symbols": "Symbol",
+      "footprints": "Footprint",
+      "fields": [
+        {
+          "column": "IPN",
+          "name": "IPN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "MPN",
+          "name": "MPN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Manufacturer",
+          "name": "Manufacturer",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Description",
+          "name": "Description",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Symbol",
+          "name": "Symbol",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Footprint",
+          "name": "Footprint",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Datasheet",
+          "name": "Datasheet",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Mouser-PN",
+          "name": "Mouser-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "DigiKey-PN",
+          "name": "DigiKey-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        }
+      ]
+    },
+    {
+      "name": "IND",
+      "table": "IND",
+      "key": "IPN",
+      "symbols": "Symbol",
+      "footprints": "Footprint",
+      "fields": [
+        {
+          "column": "IPN",
+          "name": "IPN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "MPN",
+          "name": "MPN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Manufacturer",
+          "name": "Manufacturer",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Description",
+          "name": "Description",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Symbol",
+          "name": "Symbol",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Footprint",
+          "name": "Footprint",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Inductance",
+          "name": "Inductance",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Current",
+          "name": "Current",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Package",
+          "name": "Package",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Datasheet",
+          "name": "Datasheet",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Mouser-PN",
+          "name": "Mouser-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "DigiKey-PN",
+          "name": "DigiKey-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        }
+      ]
+    },
+    {
+      "name": "MCU",
+      "table": "MCU",
+      "key": "IPN",
+      "symbols": "Symbol",
+      "footprints": "Footprint",
+      "fields": [
+        {
+          "column": "IPN",
+          "name": "IPN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "MPN",
+          "name": "MPN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Manufacturer",
+          "name": "Manufacturer",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Description",
+          "name": "Description",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Symbol",
+          "name": "Symbol",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Footprint",
+          "name": "Footprint",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Datasheet",
+          "name": "Datasheet",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Mouser-PN",
+          "name": "Mouser-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "DigiKey-PN",
+          "name": "DigiKey-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        }
+      ]
+    },
+    {
+      "name": "MPU",
+      "table": "MPU",
+      "key": "IPN",
+      "symbols": "Symbol",
+      "footprints": "Footprint",
+      "fields": [
+        {
+          "column": "IPN",
+          "name": "IPN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "MPN",
+          "name": "MPN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Manufacturer",
+          "name": "Manufacturer",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Description",
+          "name": "Description",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Symbol",
+          "name": "Symbol",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Footprint",
+          "name": "Footprint",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Datasheet",
+          "name": "Datasheet",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Mouser-PN",
+          "name": "Mouser-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "DigiKey-PN",
+          "name": "DigiKey-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        }
+      ]
+    },
+    {
+      "name": "OPT",
+      "table": "OPT",
+      "key": "IPN",
+      "symbols": "Symbol",
+      "footprints": "Footprint",
+      "fields": [
+        {
+          "column": "IPN",
+          "name": "IPN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "MPN",
+          "name": "MPN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Manufacturer",
+          "name": "Manufacturer",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Description",
+          "name": "Description",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Symbol",
+          "name": "Symbol",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Footprint",
+          "name": "Footprint",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Color",
+          "name": "Color",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "I-forward-max",
+          "name": "I-forward-max",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "V-forward",
+          "name": "V-forward",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Wavelength",
+          "name": "Wavelength",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Brightness",
+          "name": "Brightness",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Package",
+          "name": "Package",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Datasheet",
+          "name": "Datasheet",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Mouser-PN",
+          "name": "Mouser-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "DigiKey-PN",
+          "name": "DigiKey-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        }
+      ]
+    },
+    {
+      "name": "OSC",
+      "table": "OSC",
+      "key": "IPN",
+      "symbols": "Symbol",
+      "footprints": "Footprint",
+      "fields": [
+        {
+          "column": "IPN",
+          "name": "IPN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "MPN",
+          "name": "MPN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Manufacturer",
+          "name": "Manufacturer",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Description",
+          "name": "Description",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Symbol",
+          "name": "Symbol",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Footprint",
+          "name": "Footprint",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Frequency",
+          "name": "Frequency",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Frequency Stability",
+          "name": "Frequency Stability",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Load Capacitance",
+          "name": "Load Capacitance",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Datasheet",
+          "name": "Datasheet",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Mouser-PN",
+          "name": "Mouser-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "DigiKey-PN",
+          "name": "DigiKey-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        }
+      ]
+    },
+    {
+      "name": "PWR",
+      "table": "PWR",
+      "key": "IPN",
+      "symbols": "Symbol",
+      "footprints": "Footprint",
+      "fields": [
+        {
+          "column": "IPN",
+          "name": "IPN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "MPN",
+          "name": "MPN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Manufacturer",
+          "name": "Manufacturer",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Description",
+          "name": "Description",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Symbol",
+          "name": "Symbol",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Footprint",
+          "name": "Footprint",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Datasheet",
+          "name": "Datasheet",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Mouser-PN",
+          "name": "Mouser-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "DigiKey-PN",
+          "name": "DigiKey-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        }
+      ]
+    },
+    {
+      "name": "REG",
+      "table": "REG",
+      "key": "IPN",
+      "symbols": "Symbol",
+      "footprints": "Footprint",
+      "fields": [
+        {
+          "column": "IPN",
+          "name": "IPN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "MPN",
+          "name": "MPN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Manufacturer",
+          "name": "Manufacturer",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Description",
+          "name": "Description",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Voltage",
+          "name": "Voltage",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Current",
+          "name": "Current",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Symbol",
+          "name": "Symbol",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Footprint",
+          "name": "Footprint",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Datasheet",
+          "name": "Datasheet",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Mouser-PN",
+          "name": "Mouser-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "DigiKey-PN",
+          "name": "DigiKey-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        }
+      ]
+    },
+    {
+      "name": "RES",
+      "table": "RES",
+      "key": "IPN",
+      "symbols": "Symbol",
+      "footprints": "Footprint",
+      "fields": [
+        {
+          "column": "IPN",
+          "name": "IPN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "MPN",
+          "name": "MPN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Manufacturer",
+          "name": "Manufacturer",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Description",
+          "name": "Description",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Symbol",
+          "name": "Symbol",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Footprint",
+          "name": "Footprint",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Resistance",
+          "name": "Resistance",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Voltage",
+          "name": "Voltage",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Power",
+          "name": "Power",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Tolerance",
+          "name": "Tolerance",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Package",
+          "name": "Package",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Temperature Coefficient",
+          "name": "Temperature Coefficient",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Datasheet",
+          "name": "Datasheet",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Mouser-PN",
+          "name": "Mouser-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "DigiKey-PN",
+          "name": "DigiKey-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        }
+      ]
+    },
+    {
+      "name": "RFM",
+      "table": "RFM",
+      "key": "IPN",
+      "symbols": "Symbol",
+      "footprints": "Footprint",
+      "fields": [
+        {
+          "column": "IPN",
+          "name": "IPN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "MPN",
+          "name": "MPN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Manufacturer",
+          "name": "Manufacturer",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Description",
+          "name": "Description",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Symbol",
+          "name": "Symbol",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Footprint",
+          "name": "Footprint",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Datasheet",
+          "name": "Datasheet",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Mouser-PN",
+          "name": "Mouser-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "DigiKey-PN",
+          "name": "DigiKey-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        }
+      ]
+    },
+    {
+      "name": "SWI",
+      "table": "SWI",
+      "key": "IPN",
+      "symbols": "Symbol",
+      "footprints": "Footprint",
+      "fields": [
+        {
+          "column": "IPN",
+          "name": "IPN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "MPN",
+          "name": "MPN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Manufacturer",
+          "name": "Manufacturer",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Description",
+          "name": "Description",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Form",
+          "name": "Form",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Symbol",
+          "name": "Symbol",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Footprint",
+          "name": "Footprint",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Datasheet",
+          "name": "Datasheet",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Mouser-PN",
+          "name": "Mouser-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "DigiKey-PN",
+          "name": "DigiKey-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        }
+      ]
+    },
+    {
+      "name": "XTR",
+      "table": "XTR",
+      "key": "IPN",
+      "symbols": "Symbol",
+      "footprints": "Footprint",
+      "fields": [
+        {
+          "column": "IPN",
+          "name": "IPN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "MPN",
+          "name": "MPN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Manufacturer",
+          "name": "Manufacturer",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Description",
+          "name": "Description",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Symbol",
+          "name": "Symbol",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Footprint",
+          "name": "Footprint",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Datasheet",
+          "name": "Datasheet",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Mouser-PN",
+          "name": "Mouser-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "DigiKey-PN",
+          "name": "DigiKey-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        }
+      ]
+    }
+  ]
+}

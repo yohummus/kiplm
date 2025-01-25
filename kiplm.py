@@ -29,7 +29,7 @@ ROOT_DIR       = Path(__file__).parent
 FRONTEND_DIR   = ROOT_DIR / 'frontend'
 DB_DIR         = ROOT_DIR / 'db'
 SQLITE_FILE    = ROOT_DIR / 'kicad_libs/parts.sqlite'
-KICAD_DBL_FILE = ROOT_DIR / 'kicad_libs/parts.kicad_dbl'
+KICAD_DBL_FILE = ROOT_DIR / 'kicad_libs/KiPLM.kicad_dbl'
 MONKEY_API_URI = '/monkey-api/'
 
 api_routes = web.RouteTableDef()
@@ -309,6 +309,7 @@ def build_kicad_lib(csv_files_for_update: list[Path] | None = None) -> None:
 
         with open(KICAD_DBL_FILE, 'w') as fh:
             json.dump(dbl_data, fh, indent=2)
+            fh.write('\n')
     
 
 async def run_api_server(address: str, port: int) -> None:

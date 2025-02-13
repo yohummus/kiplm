@@ -13,16 +13,16 @@ import re
 import sqlite3
 import sys
 import traceback
-
 from argparse import Namespace, ArgumentParser
 from pathlib import Path
 from typing import Generator
 
 from aiohttp import web
+from colorama import Fore, Style
 import argcomplete
 import asyncinotify
-from colorama import Fore, Style
 import pandas
+import yaml
 
 
 ROOT_DIR       = Path(__file__).parent
@@ -30,6 +30,7 @@ FRONTEND_DIR   = ROOT_DIR / 'frontend'
 DB_DIR         = ROOT_DIR / 'db'
 SQLITE_FILE    = ROOT_DIR / 'kicad_libs/parts.sqlite'
 KICAD_DBL_FILE = ROOT_DIR / 'kicad_libs/KiPLM.kicad_dbl'
+DB_INFO_FILE   = ROOT_DIR / 'db_info.yaml'
 MONKEY_API_URI = '/monkey-api/'
 
 api_routes = web.RouteTableDef()
@@ -253,9 +254,18 @@ def build_kicad_lib(csv_files_for_update: list[Path] | None = None) -> None:
         csv_files_for_update: List of CSV files in DB_DIR to use for the update; if None, all CSV files are used.
     """
     
+    # Read the database tables info file
+    db_info = yaml.load(DB_INFO_FILE.read_text(), Loader=yaml.Loader)
+    
     # Read all CSV files
     csv_files = sorted(DB_DIR.glob('*.csv'))
     csv_dfs = {file.stem: pandas.read_csv(file, dtype=str, keep_default_na=False) for file in csv_files}
+    
+    # Add the Value column to the CSV files if it does not already exist and if we have a source mapping for it
+    for table_name, csv_df in csv_dfs.items():
+        value_source = db_info['value_field_sources'].get(table_name)
+        if value_source and 'Value' not in csv_df.columns:
+            csv_df['Value'] = csv_df[value_source]
     
     # Create or update the SQLite database
     with sqlite3.connect(SQLITE_FILE) as db:
@@ -300,7 +310,7 @@ def build_kicad_lib(csv_files_for_update: list[Path] | None = None) -> None:
                 'fields': [{
                     'column': col_title,
                     'name': col_title,
-                    'visible_on_add': False,
+                    'visible_on_add': col_title in db_info['visible_symbol_fields'].get(table_name, []),
                     'visible_in_chooser': True,
                     'show_name': False,
                 } for col_title in csv_df.columns]

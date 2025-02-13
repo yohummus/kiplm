@@ -1,1 +1,4 @@
 IPN,MPN,Manufacturer,Description,Symbol,Footprint,Datasheet,Mouser-PN,DigiKey-PN
+ICS-0000-CDRR,LP5813CDRRR,Texas Instruments,LED Lighting Driver ICs Synchronous boost 4 x 3 matrix RGB LED d,KiPLM_Symbols:LP5813,KiPLM_Footprints:WSON-12,https://www.ti.com/lit/gpn/lp5813,595-LP5813CDRRR,296-LP5813CDRRRCT-ND
+ICS-0001-6610,LM66100DCKT,Texas Instruments,Hot Swap Voltage Controllers 1.5-V to 5.5-V 1.5- A 0.5-uA IQ ideal d A 595-LM66100DCKR,Power_Management:LM66100DCK,Package_TO_SOT_SMD:SOT-363_SC-70-6,https://www.ti.com/lit/gpn/lm66100,595-LM66100DCKT,
+ICS-0002-2116,TPS2116DRLR,Texas Instruments,Power Switch ICs - Power Distribution 1.6-V to 5.5-V 40-m ? 2.5-A low-IQ pr,Power_Management:TPS2116DRL,Package_TO_SOT_SMD:SOT-583-8,https://www.ti.com/lit/gpn/tps2116,595-TPS2116DRLR,

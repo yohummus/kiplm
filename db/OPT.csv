@@ -1,1 +1,2 @@
 IPN,MPN,Manufacturer,Description,Symbol,Footprint,Color,I-forward-max,V-forward,Wavelength,Brightness,Package,Datasheet,Mouser-PN,DigiKey-PN
+OPT-0000-CMPR,CLV1H-FKB-CMPRTHKBB2367453,Cree LED,Multi-Colour LEDs RGB LED SMD,KiPLM_Symbols:CLV1H-FKB,KiPLM_Footprints:PLCC4_CLV1H-FKB,RGB,20mA,2.9V,465nm,2.4cd,PLCC4,https://www.mouser.it/datasheet/2/723/HB_CLV1H_FKB-3402009.pdf,941-CLV1HBCTKB237453,90-CLV1H-FKB-CMPRTHKBB2367453TR-ND

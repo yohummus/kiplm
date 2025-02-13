@@ -1,1 +1,2 @@
 IPN,MPN,Manufacturer,Description,Voltage,Current,Symbol,Footprint,Datasheet,Mouser-PN,DigiKey-PN
+REG-0000-03V0,AP2127K-3.0TRG1,Diodes Incorporated,LDO Voltage Regulators 300mA CMOS LDO 2.5V to 6V,3V,300mA,Regulator_Linear:AP2127K-1.0,Package_TO_SOT_SMD:SOT-23-5,https://www.mouser.it/datasheet/2/115/DIOD_S_A0004140807_1-2542300.pdf,621-AP2127K-3.0TRG1,

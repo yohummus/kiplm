@@ -1,1 +1,2 @@
 IPN,MPN,Manufacturer,Description,Symbol,Footprint,Inductance,Current,Package,Datasheet,Mouser-PN,DigiKey-PN
+IND-0000-1R0J,SRP4020TA-1R0M,Bourns,Power Inductors - SMD 1uH 20% SMD 4020 AEC-Q200,KiPLM_Symbols:Inductor,KiPLM_Footprints:SRP4020TA,1uH,,,https://www.mouser.it/datasheet/2/54/srp4020ta-1391523.pdf,652-SRP4020TA-1R0M,

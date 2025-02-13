@@ -1,0 +1,15 @@
+IPN,MPN,Manufacturer,Value,Description,Symbol,Footprint,Datasheet,Mouser-PN,DigiKey-PN
+MEC-0000-0310,BTNK0310,C&K Switches,Dark gray,Switch Cap 8.5 x 3.8 mm,KiPLM_Symbols:BTNK03,KiPLM_Footprints:BTNK03,https://www.ckswitches.com/media/1457/ksa_ksl.pdf,611-BTNK0310,BTNK0310-ND
+MEC-0000-0320,BTNK0320,C&K Switches,Light gray,Switch Cap 8.5 x 3.8 mm,KiPLM_Symbols:BTNK03,KiPLM_Footprints:BTNK03,https://www.ckswitches.com/media/1457/ksa_ksl.pdf,,BTNK0320-ND
+MEC-0000-0330,BTNK0330,C&K Switches,Yellow,Switch Cap 8.5 x 3.8 mm,KiPLM_Symbols:BTNK03,KiPLM_Footprints:BTNK03,https://www.ckswitches.com/media/1457/ksa_ksl.pdf,,BTNK0330-ND
+MEC-0000-0340,BTNK0340,C&K Switches,Red,Switch Cap 8.5 x 3.8 mm,KiPLM_Symbols:BTNK03,KiPLM_Footprints:BTNK03,https://www.ckswitches.com/media/1457/ksa_ksl.pdf,,BTNK0340-ND
+MEC-0000-0350,BTNK0350,C&K Switches,Green,Switch Cap 8.5 x 3.8 mm,KiPLM_Symbols:BTNK03,KiPLM_Footprints:BTNK03,https://www.ckswitches.com/media/1457/ksa_ksl.pdf,611-BTNK0350,BTNK0350-ND
+MEC-0000-0360,BTNK0360,C&K Switches,Blue,Switch Cap 8.5 x 3.8 mm,KiPLM_Symbols:BTNK03,KiPLM_Footprints:BTNK03,https://www.ckswitches.com/media/1457/ksa_ksl.pdf,,BTNK0360-ND
+MEC-0000-0370,BTNK0370,C&K Switches,Gray-blue,Switch Cap 8.5 x 3.8 mm,KiPLM_Symbols:BTNK03,KiPLM_Footprints:BTNK03,https://www.ckswitches.com/media/1457/ksa_ksl.pdf,611-BTNK0370,BTNK0370-ND
+MEC-0000-0380,BTNK0380,C&K Switches,Ivory,Switch Cap 8.5 x 3.8 mm,KiPLM_Symbols:BTNK03,KiPLM_Footprints:BTNK03,https://www.ckswitches.com/media/1457/ksa_ksl.pdf,611-BTNK0380,BTNK0380-ND
+MEC-0000-0390,BTNK0390,C&K Switches,Black,Switch Cap 8.5 x 3.8 mm,KiPLM_Symbols:BTNK03,KiPLM_Footprints:BTNK03,https://www.ckswitches.com/media/1457/ksa_ksl.pdf,611-BTNK0390,BTNK0390-ND
+MEC-0001-016C,LPC016CTP,VCC,"⌀4.0 mm, L=4.6 mm","LED Light Pipe ⌀4.0mm, L=4.6mm",KiPLM_Symbols:LPC_Light_Pipe_Flat,,https://www.mouser.it/datasheet/2/423/lpc-4mm-round-1064715.pdf,593-LPC016CTP,
+MEC-0002-0150,RTN_150,VCC,,"Clip for LPCxxx light pipes, L=3.81mm",KiPLM_Symbols:LPC_Light_Pipe_Clip,,https://www.mouser.it/datasheet/2/423/RTN-150-Retaining-Grommet-1064764.pdf,593-RTN150,
+MEC-0003-0250,RTN_250,VCC,,"Clip for LPCxxx light pipes, L=6.35mm",KiPLM_Symbols:LPC_Light_Pipe_Clip,,https://www.mouser.it/datasheet/2/423/RTN-250-Retaining-Clip-1064709.pdf,593-RTN250,
+MEC-0004-2012,515-1302-0125F,Dialight,,LED Light Pipes PMVLPCONVEX LTPIPE 122 X 125 LG,KiPLM_Symbols:LPC_Light_Pipe_Convex,KiPLM_Footprints:515-130X-XXXXF,https://www.mouser.it/datasheet/2/109/Dialight_CBI_data_515_OptoVPM_3mm-3082423.pdf,645-515-1302-0125F,
+MEC-0005-30M2,M2_3.0,CNCKitchen,,"Threaded insert for 3D printing, brass, M2, L=3.0 mm",KiPLM_Symbols:Threaded_Insert,KiPLM_Footprints:Threaded_Insert_M2_3.0mm_SMT,https://cnckitchen.store/products/heat-set-insert-m2-x-3-100-pieces,

@@ -5,13 +5,15 @@
       "**/.git": true,
       "**/.DS_Store": true,
       "**/Thumbs.db": true,
-      "**/__pycache__": true
+      "**/__pycache__": true,
+      "**/*.bak": true
     },
     "files.associations": {
       "*.kicad_dbl": "json"
     },
     "[yaml]": {
       "editor.formatOnSave": false
-    }
+    },
+    "csv-edit.readOption_hasHeader": "true"
   }
 }

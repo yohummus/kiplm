@@ -1,1 +1,4 @@
 IPN,MPN,Manufacturer,Description,Symbol,Footprint,Pins,Datasheet,Mouser-PN,DigiKey-PN
+CON-0000-0080,505110-0892,Molex,FC & FPC Connectors 0.5 FPC ZIF BTM CONT EMBT PKG 8Ckt,KiPLM_Symbols:FFC_Prog_Conn,KiPLM_Footprints:Molex_505110-0892,8,https://www.molex.com/en-us/products/part-detail/5051100892?display=pdf,538-505110-0892,
+CON-0001-0120,USB4105-GF-A-120,Global Connector Technology (GCT),"USB Connectors USB Type C, 2.0 SMT PCB Top Mnt 1.20mm",Connector:USB_C_Receptacle_USB2.0_16P,Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal,,https://www.mouser.it/datasheet/2/837/Global_Connector_Technology_usb4105-3106202.pdf,640-USB4105-GF-A-120,
+CON-0002-4048,4048,Adafruit,Mini SWD 0.05 Pitch Connector - 10 Pin SMT Header,Connector:Conn_ARM_JTAG_SWD_10,Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD,,,485-4048,

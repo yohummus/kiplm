@@ -1,1 +1,2 @@
 IPN,MPN,Manufacturer,Description,Symbol,Footprint,Frequency,Frequency Stability,Load Capacitance,Datasheet,Mouser-PN,DigiKey-PN
+OSC-0000-WTCH,ABS07-32.768KHZ-9-T,ABRACON,Crystals 32.768 KHZ  9.0PF 20PPM -40+85,KiPLM_Symbols:Crystal,KiPLM_Footprints:ABS07AIG,32.768kHz,,9pF,https://www.mouser.it/datasheet/2/3/ABS07-3080027.pdf,815-ABS07-32.768K9T,

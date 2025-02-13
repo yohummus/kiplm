@@ -1,0 +1,281 @@
+(footprint "BAT-HLD-001"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "CR2032 holder")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "036c5f87-ceb8-4a61-924c-f741691cdf84")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BAT-HLD-001"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "501cfb05-c15a-45f8-8da1-ad2ea111e8da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6fc713d9-60a3-4c87-a6ed-d53b353aec4f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8a79803-7339-463f-afb2-fbeadfae26e5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "CR2032 holder, pos only, TE Connectivity Linx BAT-HLD-001"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "69dd458b-6bc4-425d-aa82-d9135637deb6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -11 -5)
+		(end -11 -3.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7782d324-e10c-4733-b5f6-5918ec0d2c79")
+	)
+	(fp_line
+		(start -11 -5)
+		(end -8.75 -7.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ee1788ee-6e9f-4791-8f64-55ef7a21d6ed")
+	)
+	(fp_line
+		(start -11 3.5)
+		(end -11 5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5e242037-5d8d-4d1b-b524-d65dd5b6a9ae")
+	)
+	(fp_line
+		(start -11 5)
+		(end -8.2 7.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7194efc9-66fc-4fd1-b268-883be21d8605")
+	)
+	(fp_line
+		(start -8.2 7.75)
+		(end -6 7.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2df52e50-2300-4c85-8e79-519b87e30567")
+	)
+	(fp_line
+		(start 6 7.75)
+		(end 8.2 7.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f218f821-ecd8-4acd-8358-1d4acf538786")
+	)
+	(fp_line
+		(start 8.75 -7.75)
+		(end -8.75 -7.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a6e2e153-7fbb-4086-89d5-496a0fc9c8ee")
+	)
+	(fp_line
+		(start 11 -5)
+		(end 8.75 -7.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "de18668a-af5d-4928-b80e-4a5e843fe760")
+	)
+	(fp_line
+		(start 11 -5)
+		(end 11 -3.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aaa00c26-6c67-46eb-8733-71dbd43a367f")
+	)
+	(fp_line
+		(start 11 3.5)
+		(end 11 5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e9917f29-04aa-4a95-b080-d2002e74fe7a")
+	)
+	(fp_line
+		(start 11 5)
+		(end 8.2 7.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "54b892c9-0fee-4556-9bef-5f19b202eda1")
+	)
+	(fp_arc
+		(start -6 7.75)
+		(mid 0 5.321425)
+		(end 6 7.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e027b768-79f9-4453-8166-929794bbac96")
+	)
+	(fp_circle
+		(center 7 -0.5)
+		(end 7 -0.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "63d04d86-55ca-4a70-8bd4-8270c5f916be")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 11 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "ad724088-0371-4bf1-814e-39f3cf499993")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 10 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "3f45a857-3faa-4a13-bc84-7295d9d45803")
+	)
+	(fp_text user "+"
+		(at -9.398 1.016 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "372464db-40db-49d9-b14a-b83cfceca2fe")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0f77abcb-88f8-4a52-b6d1-ce6cd5772bb6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -10.75 0)
+		(size 2.5 5.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "72b3617c-ab50-4cc0-ad4f-6c938405d4b7")
+	)
+	(pad "1" smd rect
+		(at 10.75 0)
+		(size 2.5 5.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6850532b-b47e-401d-a4d8-1b34aba874da")
+	)
+	(model "${KIPLM_DIR}/kicad_libs/3d_models/BAT-HLD-001.step"
+		(offset
+			(xyz 0 -2.3 2.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPLM_DIR}/kicad_libs/3d_models/CR2032.step"
+		(offset
+			(xyz 0 0 0.7)
+		)
+		(scale
+			(xyz 1 1 0.85)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

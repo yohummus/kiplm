@@ -1,0 +1,36 @@
+---
+tables:
+  ANA: Op-amps, comparators, ADCs, DACs, etc.
+  ART: Artwork; parts with a BOM line
+  AUD: Audio, speakers, buzzers, microphones, etc.
+  CAP: Capacitors
+  CON: Connectors
+  CPD: Circuit protection devices
+  DIO: Diodes
+  ICS: Integrated circuits
+  IND: Inductors
+  MCU: Microcontrollers, modules, etc.
+  MEC: Mechanical, screws, nuts, bolts, washers, standoffs, etc.
+  OPT: Optical, couplers, phototransistors, etc.
+  OSC: Oscillators, crystals, resonators, etc.
+  PWR: Relays, batteries & holders, etc.
+  REG: Regulators
+  RES: Resistors
+  RFM: RF modules, ICs, and related components
+  SWI: Switches
+  XTR: Transistors, BJTs, FETs, Triacs, etc.
+
+visible_symbol_fields:
+  CAP: [Capacitance]
+  CON: []
+  IND: [Inductance]
+  MEC: [MPN, Value]
+  OSC: [Frequency]
+  REG: [MPN, Voltage]
+  RES: [Resistance]
+
+value_field_sources:
+  CAP: Capacitance
+  IND: Inductance
+  OSC: Frequency
+  RES: Resistance

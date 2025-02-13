@@ -130,6 +130,78 @@
       ]
     },
     {
+      "name": "AUD",
+      "table": "AUD",
+      "key": "IPN",
+      "symbols": "Symbol",
+      "footprints": "Footprint",
+      "fields": [
+        {
+          "column": "IPN",
+          "name": "IPN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "MPN",
+          "name": "MPN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Manufacturer",
+          "name": "Manufacturer",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Description",
+          "name": "Description",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Symbol",
+          "name": "Symbol",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Footprint",
+          "name": "Footprint",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Datasheet",
+          "name": "Datasheet",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Mouser-PN",
+          "name": "Mouser-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "DigiKey-PN",
+          "name": "DigiKey-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        }
+      ]
+    },
+    {
       "name": "CAP",
       "table": "CAP",
       "key": "IPN",
@@ -181,7 +253,7 @@
         {
           "column": "Capacitance",
           "name": "Capacitance",
-          "visible_on_add": false,
+          "visible_on_add": true,
           "visible_in_chooser": true,
           "show_name": false
         },
@@ -230,6 +302,13 @@
         {
           "column": "DigiKey-PN",
           "name": "DigiKey-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Value",
+          "name": "Value",
           "visible_on_add": false,
           "visible_in_chooser": true,
           "show_name": false
@@ -597,7 +676,7 @@
         {
           "column": "Inductance",
           "name": "Inductance",
-          "visible_on_add": false,
+          "visible_on_add": true,
           "visible_in_chooser": true,
           "show_name": false
         },
@@ -632,6 +711,13 @@
         {
           "column": "DigiKey-PN",
           "name": "DigiKey-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Value",
+          "name": "Value",
           "visible_on_add": false,
           "visible_in_chooser": true,
           "show_name": false
@@ -711,8 +797,8 @@
       ]
     },
     {
-      "name": "MPU",
-      "table": "MPU",
+      "name": "MEC",
+      "table": "MEC",
       "key": "IPN",
       "symbols": "Symbol",
       "footprints": "Footprint",
@@ -727,7 +813,7 @@
         {
           "column": "MPN",
           "name": "MPN",
-          "visible_on_add": false,
+          "visible_on_add": true,
           "visible_in_chooser": true,
           "show_name": false
         },
@@ -735,6 +821,13 @@
           "column": "Manufacturer",
           "name": "Manufacturer",
           "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Value",
+          "name": "Value",
+          "visible_on_add": true,
           "visible_in_chooser": true,
           "show_name": false
         },
@@ -948,7 +1041,7 @@
         {
           "column": "Frequency",
           "name": "Frequency",
-          "visible_on_add": false,
+          "visible_on_add": true,
           "visible_in_chooser": true,
           "show_name": false
         },
@@ -983,6 +1076,13 @@
         {
           "column": "DigiKey-PN",
           "name": "DigiKey-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Value",
+          "name": "Value",
           "visible_on_add": false,
           "visible_in_chooser": true,
           "show_name": false
@@ -1078,7 +1178,7 @@
         {
           "column": "MPN",
           "name": "MPN",
-          "visible_on_add": false,
+          "visible_on_add": true,
           "visible_in_chooser": true,
           "show_name": false
         },
@@ -1099,7 +1199,7 @@
         {
           "column": "Voltage",
           "name": "Voltage",
-          "visible_on_add": false,
+          "visible_on_add": true,
           "visible_in_chooser": true,
           "show_name": false
         },
@@ -1199,7 +1299,7 @@
         {
           "column": "Resistance",
           "name": "Resistance",
-          "visible_on_add": false,
+          "visible_on_add": true,
           "visible_in_chooser": true,
           "show_name": false
         },
@@ -1255,6 +1355,13 @@
         {
           "column": "DigiKey-PN",
           "name": "DigiKey-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Value",
+          "name": "Value",
           "visible_on_add": false,
           "visible_in_chooser": true,
           "show_name": false
@@ -1364,13 +1471,6 @@
         {
           "column": "Description",
           "name": "Description",
-          "visible_on_add": false,
-          "visible_in_chooser": true,
-          "show_name": false
-        },
-        {
-          "column": "Form",
-          "name": "Form",
           "visible_on_add": false,
           "visible_in_chooser": true,
           "show_name": false

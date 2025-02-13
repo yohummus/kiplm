@@ -210,7 +210,7 @@
         $('<span class="kiplm-ipn-dash">&mdash;</span>').appendTo(ipn_container);
         const nnnn_input = $('<input type="text" class="kiplm-modal-input" placeholder="NNNN" pattern="[0-9]{4}" minLength="4" maxlength="4" title="Incrementing sequential number for each part. Must be exactly 4 digits."></input>').appendTo(ipn_container);
         $('<span class="kiplm-ipn-dash">&mdash;</span>').appendTo(ipn_container);
-        const vvvv_input = $('<input type="text" class="kiplm-modal-input" placeholder="VVVV" pattern="[a-zA-Z0-9]{4}" minLength="4" maxlength="4" title="Variation of similar parts typically with the same datasheet (e.g. resistors, capacitors and voltage regulartors). Must be exactly 4 digits and or letters."></input>').appendTo(ipn_container);
+        const vvvv_input = $('<input type="text" class="kiplm-modal-input" placeholder="VVVV" pattern="[A-Z0-9]{4}" minLength="4" maxlength="4" title="Variation of similar parts typically with the same datasheet (e.g. resistors, capacitors and voltage regulartors). Must be exactly 4 digits and or letters."></input>').appendTo(ipn_container);
 
         const error_label = $('<div class="kiplm-modal-error-label"><i class="fas fa-exclamation-triangle"></i></div>').appendTo(content);
         const error_text = $('<span class="kiplm-modal-error-text">Fuck this shit</span>').appendTo(error_label);
@@ -287,7 +287,7 @@
 
             gd.web_part = {
                 'Manufacturer': this._get_prod_attr('Manufacturer'),
-                'MPN': $('#spnManufacturerPartNumber').text().trim(),
+                'MPN': $('#spnManufacturerPartNumber').text().trim().replaceAll(' ', ''),
                 'Description': $('#spnDescription').text().trim(),
                 'Datasheet': $('#pdp-datasheet_0').prop('href'),
                 [this.vendor_name + '-PN']: $('#spnMouserPartNumFormattedForProdInfo').text().trim(),
@@ -297,8 +297,8 @@
                 'Frequency': fmt_value(this._get_prod_attr('Frequency'), 'Hz'),
                 'Frequency Stability': fmt_value(this._get_prod_attr('Frequency Stability'), 'PPM'),
                 'Load Capacitance': fmt_value(this._get_prod_attr('Load Capacitance'), 'F'),
-                'Voltage': fmt_value(this._get_prod_attr('Voltage Rating'), 'V') || fmt_value(this._get_prod_attr('Voltage Rating DC'), 'V'),
-                'current': fmt_value(this._get_prod_attr('Current Rating'), 'A') || fmt_value(this._get_prod_attr('Maximum DC Current'), 'A'),
+                'Voltage': fmt_value(this._get_prod_attr('Voltage Rating'), 'V') || fmt_value(this._get_prod_attr('Voltage Rating DC'), 'V') || fmt_value(this._get_prod_attr('Output Voltage'), 'V'),
+                'Current': fmt_value(this._get_prod_attr('Current Rating'), 'A') || fmt_value(this._get_prod_attr('Maximum DC Current'), 'A') || fmt_value(this._get_prod_attr('Output Current'), 'A'),
                 'Power': fmt_value(this._get_prod_attr('Power Rating'), 'W'),
                 'Tolerance': tolerance,
                 'Temperature Coefficient': fmt_value(this._get_prod_attr('Temperature Coefficient'), 'PPM/°C'),
@@ -345,10 +345,10 @@
                     tolerance = fmt_value(tolerance_raw, 'PPM');
                 }
             }
-
+            
             gd.web_part = {
                 'Manufacturer': $('[data-testid="overview-manufacturer"] a').text(),
-                'MPN': $('[data-testid="mfr-number"]').text(),
+                'MPN': $('[data-testid="mfr-number"]').text().replaceAll(' ', ''),
                 'Description': $('[track-data="ref_page_event=Copy Expand Description"]').text(),
                 'Datasheet': $('[data-testid="datasheet-download"]').prop('href'),
                 [this.vendor_name + '-PN']: this._get_digikey_part_no(),
@@ -442,7 +442,8 @@
             text = text.replace('ppm', 'PPM');
             const [_, val_str, unit_str] = text.match(/(^[0-9\.]+)(.*)/)
             const unit_prefix = 'fpnµumkMGT'.includes(unit_str[0]) ? unit_str[0] : '';
-            return `${val_str} ${unit_prefix}${unit}`;
+            const space = unit_prefix.startsWith('PPM') ? ' ' : '';
+            return `${val_str}${space}${unit_prefix}${unit}`;
         } catch (e) {
             return null;
         }

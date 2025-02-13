@@ -5,9 +5,7 @@
   },
   "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
   "workspaceFolder": "/workspace",
-  "forwardPorts": [
-    5000
-  ],
+  "forwardPorts": [5000],
   "customizations": {
     "vscode": {
       "extensions": [
@@ -16,7 +14,9 @@
         "ms-python.vscode-pylance",
         "ms-python.debugpy",
         "esbenp.prettier-vscode",
-        "dbaeumer.vscode-eslint"
+        "dbaeumer.vscode-eslint",
+        "mechatroner.rainbow-csv",
+        "janisdd.vscode-edit-csv"
       ]
     }
   }

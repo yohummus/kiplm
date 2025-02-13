@@ -1,1 +1,6 @@
 IPN,MPN,Manufacturer,Description,Symbol,Footprint,Resistance,Voltage,Power,Tolerance,Package,Temperature Coefficient,Datasheet,Mouser-PN,DigiKey-PN
+RES-0000-0102,CRCW06031K00FKEAC,Vishay,Thick Film Resistors - SMD 1/10Watt 1Kohms 1% Commercial Use,KiPLM_Symbols:Resistor,Resistor_SMD:R_0603_1608Metric,1kΩ,75V,100mW,1%,0603,100 PPM/°C,https://www.vishay.com/doc?28773,71-CRCW06031K00FKEAC,
+RES-0000-0103,CRCW060310K0FKEAC,Vishay,Thick Film Resistors - SMD 1/10Watt 10Kohms 1% Commercial Use,KiPLM_Symbols:Resistor,Resistor_SMD:R_0603_1608Metric,10kΩ,75V,100mW,1%,0603,100 PPM/°C,https://www.vishay.com/doc?28773,71-CRCW060310K0FKEAC,
+RES-0000-0105,CRCW06031M00FKEAC,Vishay,Thick Film Resistors - SMD 1/10Watt 1Mohms 1% Commercial Use,KiPLM_Symbols:Resistor,Resistor_SMD:R_0603_1608Metric,1MΩ,75V,100mW,1%,0603,100PPM/°C,https://www.vishay.com/doc?28773,71-CRCW06031M00FKEAC,
+RES-0000-0512,CRCW06035K10FKEAC,Vishay,Thick Film Resistors - SMD 1/10Watt 5.1Kohms 1% Commercial Use,KiPLM_Symbols:Resistor,Resistor_SMD:R_0603_1608Metric,5.1kΩ,75V,100mW,1%,0603,100PPM/°C,https://www.vishay.com/doc?28773,71-CRCW06035K10FKEAC,
+RES-0000-0220,CRCW060322R0FKEAC,Vishay,Thick Film Resistors - SMD 1/10Watt 5.1Kohms 1% Commercial Use,KiPLM_Symbols:Resistor,Resistor_SMD:R_0603_1608Metric,22Ω,75V,100mW,1%,0603,100PPM/°C,https://www.vishay.com/doc?28773,71-CRCW060322R0FKEAC,

@@ -34,3 +34,4 @@ value_field_sources:
   IND: Inductance
   OSC: Frequency
   RES: Resistance
+  SWI: MPN

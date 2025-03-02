@@ -18,7 +18,7 @@
 
     // Inject the JavaScript from the KiPLM API server
     let elem = document.createElement('script')
-    elem.src = 'http://localhost:5000/monkey-api/injected_code.js';
+    elem.src = 'http://127.0.0.1:5000/monkey-api/injected_code.js';
     document.body.appendChild(elem);
 
     // Inject the Font Awesome stylesheet

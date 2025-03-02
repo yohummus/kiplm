@@ -4,6 +4,7 @@ tables:
   ART: Artwork; parts with a BOM line
   AUD: Audio, speakers, buzzers, microphones, etc.
   CAP: Capacitors
+  CBL: Cables, wires
   CON: Connectors
   CPD: Circuit protection devices
   DIO: Diodes
@@ -22,6 +23,7 @@ tables:
 
 visible_symbol_fields:
   CAP: [Capacitance]
+  CBL: [MPN]
   CON: []
   IND: [Inductance]
   MEC: [MPN, Value]
@@ -31,7 +33,9 @@ visible_symbol_fields:
 
 value_field_sources:
   CAP: Capacitance
+  CBL: MPN
   IND: Inductance
   OSC: Frequency
   RES: Resistance
   SWI: MPN
+  XTR: MPN

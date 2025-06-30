@@ -470,7 +470,7 @@
     async function monkey_api_get_part_by_mpn(mpn) {
         return new Promise((resolve, reject) => {
             GM_xmlhttpRequest({
-                url: API_URL + `part-by-mpn/${mpn}`,
+                url: API_URL + `part-by-mpn/${encodeURIComponent(mpn)}`,
                 method: 'GET',
                 responseType: 'json',
                 onerror: (resp) => reject(resp.statusText),

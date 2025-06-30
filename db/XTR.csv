@@ -1,2 +1,3 @@
 IPN,MPN,Manufacturer,Description,Symbol,Footprint,Datasheet,Mouser-PN,DigiKey-PN
 XTR-0000-000P,SI2323DDS-T1-GE3,Vishay,MOSFETs -20V Vds 8V Vgs SOT-23,Transistor_FET:TP0610T,Package_TO_SOT_SMD:SOT-23,https://www.vishay.com/doc?64004,78-SI2323DDS-T1-GE3,
+XTR-0001-35FU,"SSM6L35FU(TE85L,F)",Toshiba,MOSFETs N-Ch Sm Sig FET 0.1A -0.1A 20V 2-in1,KiPLM_Symbols:SSM6L35,Package_TO_SOT_SMD:SOT-363_SC-70-6,https://www.mouser.it/datasheet/2/408/SSM6L35FU_datasheet_en_20150909-1916117.pdf,757-SSM6L35FUTE85LF,

@@ -1,2 +1,4 @@
 IPN,MPN,Manufacturer,Description,Symbol,Footprint,Frequency,Frequency Stability,Load Capacitance,Datasheet,Mouser-PN,DigiKey-PN
-OSC-0000-WTCH,ABS07-32.768KHZ-9-T,ABRACON,Crystals 32.768 KHZ  9.0PF 20PPM -40+85,KiPLM_Symbols:Crystal,KiPLM_Footprints:ABS07AIG,32.768kHz,,9pF,https://www.mouser.it/datasheet/2/3/ABS07-3080027.pdf,815-ABS07-32.768K9T,
+OSC-0000-WTCH,ABS07-32.768KHZ-9-T,ABRACON,Crystals 32.768 KHZ  12.5pF 20PPM -40+85,KiPLM_Symbols:Crystal,KiPLM_Footprints:ABS07AIG,32.768kHz,,12.5pF,https://www.mouser.it/datasheet/2/3/ABS07-3080027.pdf,815-ABS07-32.768K9T,
+OSC-0001-025M,FL2500047,Diodes Incorporated,Crystals 25.000MHz 18pF 20ppm -20 to +70,KiPLM_Symbols:Crystal_GND24,Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm,25MHz,10PPM,9.5pF,https://www.mouser.it/datasheet/2/115/DIOD_S_A0002236579_1-2541906.pdf,729-FL2500047,
+OSC-0002-24M0,LFXTAL056140Reel,IQD Frequency Products,Crystals 24.0MHz AEC-Q200 3.2 x 2.5 x 0.8mm,KiPLM_Symbols:Crystal_GND24,Crystal:Crystal_SMD_SeikoEpson_TSX3225-4Pin_3.2x2.5mm,24MHz,100PPM,8pF,https://www.mouser.it/datasheet/2/741/LFXTAL056140Reel-940404.pdf,449-LFXTAL056140REEL,

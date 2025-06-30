@@ -1,1 +1,3 @@
 IPN,MPN,Manufacturer,Description,Symbol,Footprint,Datasheet,Mouser-PN,DigiKey-PN
+MCU-0000-1XXX,SC1xxx,Raspberry Pi,Generic Raspberry Pi Compute Module 5,KiPLM_Symbols:Raspberry_Pi_CM5,KiPLM_Footprints:Raspberry_Pi_CM5_Clearance_0mm,https://datasheets.raspberrypi.com/cm5/cm5-datasheet.pdf,,
+MCU-0001-0000,STM32C071RBT6,STMicroelectronics,ARM Microcontrollers - MCU Mainstream Arm Cortex-M0+ MCU 128 Kbytes Flash 24 Kbytes RAM 48 MHz CPU 2x USART,KiPLM_Symbols:STM32C071RBTx,Package_QFP:LQFP-64_10x10mm_P0.5mm,https://www.st.com/resource/en/datasheet/stm32c071c8.pdf,511-STM32C071RBT6,

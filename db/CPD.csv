@@ -1,2 +1,6 @@
 IPN,MPN,Manufacturer,Description,Symbol,Footprint,Datasheet,Mouser-PN,DigiKey-PN
 CPD-0000-0U4D,PRTR5V0U4D-QH,Nexperia,ESD Protection Diodes / TVS Diodes PRTR5V0U4D-Q/SOT457/SC-74,KiPLM_Symbols:PRTR5V0U4D,Package_SO:TSOP-6_1.65x3.05mm_P0.95mm,https://assets.nexperia.com/documents/data-sheet/PRTR5V0U4D-Q.pdf,771-PRTR5V0U4D-QH,
+CPD-0001-M600,FBMH1608HM600-T,TAIYO YUDEN,Ferrite Beads 963-LSMGA160808T600R RPLCMT PN 0603 60OHMS 25%,Device:FerriteBead_Small,Inductor_SMD:L_0603_1608Metric,https://www.mouser.it/datasheet/2/396/TaiyoYuden_chipbeads01_e-1274227.pdf,963-FBMH1608HM600-T,
+CPD-0002-58CA,SMAJ58CA,Littelfuse,ESD Protection Diodes / TVS Diodes 400W 58V 5% Bi-Directional,Diode:SMAJ58CA,Diode_SMD:D_SMA,https://www.littelfuse.com/assetdocs/tvs-diodes-smaj-datasheet?assetguid=13C2A823-03B8-4D1F-9DDC-9B44670AED9D,576-SMAJ58CA,
+CPD-0003-0000,ESD8104MUTAG,onsemi,ESD Protection Diodes / TVS Diodes LOW CAP ESD PROTECTION,KiPLM_Symbols:ESD8104,KiPLM_Footprints:Onsemi_UDFN-10_1.0x2.5mm_P0.5mm,https://www.onsemi.com/download/data-sheet/pdf/esd8104-d.pdf,863-ESD8104MUTAG,
+CPD-0004-0U2X,PRTR5V0U2X-QR,Nexperia,ESD Protection Diodes / TVS Diodes Ultra low capacitance double rail-to-rail ESD protection diode,KiPLM_Symbols:PRTR5V0U2X,Package_TO_SOT_SMD:SOT-143,https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X-Q.pdf,771-PRTR5V0U2X-QR,

@@ -1,0 +1,231 @@
+(footprint "Wuerth_WE_LHMI"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "WE-LHMI_7030/705048")
+	(tags "Inductor")
+	(property "Reference" "L**"
+		(at -7.0656 -4.4277 0)
+		(layer "F.SilkS")
+		(uuid "8500004d-3dde-45e9-90ec-561298036575")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "WE-LHMI_7030/705048"
+		(at -7.0656 -4.4277 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "406fb1a8-82aa-4ae3-bc24-7f9a4515bc91")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c105aeb-6f76-47bc-b341-50b9571659de")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2caa53f-de15-4c2e-b4d8-b022d373f3f2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.3 -3.3)
+		(end 3.3 -3.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "78038241-9824-4fc2-b3c9-ec55df483a2b")
+	)
+	(fp_line
+		(start -3.3 -2)
+		(end -3.3 -3.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5d1d82f9-acdb-4463-9c45-9c29a1d98936")
+	)
+	(fp_line
+		(start -3.3 2)
+		(end -3.3 3.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ac254883-802f-487a-b38a-ee85a51e7ae6")
+	)
+	(fp_line
+		(start -3.3 3.3)
+		(end 3.3 3.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e18037ac-d8e8-4817-9cf4-6778b1e3162b")
+	)
+	(fp_line
+		(start 3.3 -3.3)
+		(end 3.3 -2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "de02abda-d066-42e0-83e0-ee4c0449fa73")
+	)
+	(fp_line
+		(start 3.3 3.3)
+		(end 3.3 2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b7ee16ae-134d-4744-a6bd-8a1284309085")
+	)
+	(fp_line
+		(start -5 -4)
+		(end -5 4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d001df9e-32d6-45dc-9274-f0380b1f3e9b")
+	)
+	(fp_line
+		(start -5 4)
+		(end 5 4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ac5fb0fb-9158-4c12-ad0b-e6c587657832")
+	)
+	(fp_line
+		(start 5 -4)
+		(end -5 -4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "95f16767-387a-4a1b-ba24-82bd5ff6dcd0")
+	)
+	(fp_line
+		(start 5 4)
+		(end 5 -4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "13690ce2-bd91-4346-b6bf-571d55693bed")
+	)
+	(fp_line
+		(start -3.3 -3.3)
+		(end -3.3 3.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0619cd7f-f2c1-4a8d-bc29-c657d049f659")
+	)
+	(fp_line
+		(start -3.3 3.3)
+		(end 3.3 3.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "68aedc26-c3d3-468c-96b3-e2daafe9d90b")
+	)
+	(fp_line
+		(start 3.3 -3.3)
+		(end -3.3 -3.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3d20d90b-5bd6-4652-9bfd-cb291fc8b0fd")
+	)
+	(fp_line
+		(start 3.3 3.3)
+		(end 3.3 -3.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "75a5d1a6-51ff-4da2-a57f-5d0e76036efa")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -7.0656 -4.4277 0)
+		(layer "F.Fab")
+		(uuid "5065ab4f-4331-4b46-803c-a12f2ba96edd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.75 0)
+		(size 3 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "43d452ec-abb4-4e79-9ed8-0139747793f3")
+	)
+	(pad "2" smd rect
+		(at 2.75 0)
+		(size 3 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8e8611f8-5917-45f7-b7d9-12cd6b2c0a5a")
+	)
+	(embedded_fonts no)
+	(model "${KIPLM_DIR}/kicad_libs/3d_models/Wuerth_WE_LHMI.step"
+		(offset
+			(xyz 0 0 2.499999962)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 0 0)
+		)
+	)
+)

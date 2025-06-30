@@ -1,1 +1,2 @@
 IPN,MPN,Manufacturer,Description,Symbol,Footprint,Current,Voltage,Datasheet,Mouser-PN,DigiKey-PN
+DIO-0000-HD01,CD-HD01,Bourns,Bridge Rectifiers VRRM 100V 1A SMD MBS Bridge Rectifier,Device:D_Bridge_+AA-,KiPLM_Footprints:CD-HD,1A,100V,https://www.mouser.it/datasheet/2/54/cd-hd0x-1067095.pdf,652-CD-HD01,

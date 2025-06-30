@@ -1,2 +1,4 @@
 IPN,MPN,Manufacturer,Description,Symbol,Footprint,Inductance,Current,Package,Datasheet,Mouser-PN,DigiKey-PN
 IND-0000-1R0J,SRP4020TA-1R0M,Bourns,Power Inductors - SMD 1uH 20% SMD 4020 AEC-Q200,KiPLM_Symbols:Inductor,KiPLM_Footprints:SRP4020TA,1uH,,,https://www.mouser.it/datasheet/2/54/srp4020ta-1391523.pdf,652-SRP4020TA-1R0M,
+IND-0001-1R5J,744311150,Wurth Elektronik,Power Inductors - SMD WE-HCI 1.5uH 11A DCR=6.6mOhms AEC-Q200,KiPLM_Symbols:Inductor,Inductor_SMD:L_Wuerth_HCI-7040,1.5uH,11A,,https://www.we-online.com/components/products/datasheet/744311150.pdf,710-744311150,
+IND-0003-1R0J,74437349010,Wurth Elektronik,Power Inductors - SMD WE-LHMI Powr SMD7050 1.0uH 10.0A 6.5mOhm,KiPLM_Symbols:Inductor,KiPLM_Footprints:Wuerth_WE_LHMI,1uH,10A,,https://www.we-online.com/components/products/datasheet/74437349010.pdf,710-74437349010,

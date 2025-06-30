@@ -1,2 +1,2 @@
 IPN,MPN,Manufacturer,Description,Symbol,Footprint,Datasheet,Mouser-PN,DigiKey-PN
-RFM-0000-840F,BT840F,Fanstel,Bluetooth Modules - 802.15.1 Bluetooth Module,KiPLM_Symbols:BT840F,KiPLM_Footprints:BT840F,https://www.mouser.it/datasheet/2/915/BlueNor_BT840F_datasheets-1622692.pdf,308-BT840F,
+RFM-0000-840F,BT840F,Fanstel,Bluetooth Modules - 802.15.1 Bluetooth Module,KiPLM_Symbols:BT840,KiPLM_Footprints:BT840F,https://www.mouser.it/datasheet/2/915/BlueNor_BT840F_datasheets-1622692.pdf,308-BT840F,

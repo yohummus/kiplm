@@ -1,2 +1,3 @@
 IPN,MPN,Manufacturer,Description,Voltage,Current,Symbol,Footprint,Datasheet,Mouser-PN,DigiKey-PN
 REG-0000-03V0,AP2127K-3.0TRG1,Diodes Incorporated,LDO Voltage Regulators 300mA CMOS LDO 2.5V to 6V,3V,300mA,Regulator_Linear:AP2127K-1.0,Package_TO_SOT_SMD:SOT-23-5,https://www.mouser.it/datasheet/2/115/DIOD_S_A0004140807_1-2542300.pdf,621-AP2127K-3.0TRG1,
+REG-0001-03V3,TLV1117LV33DCYR,Texas Instruments,LDO Voltage Regulators 1A Pos Fix Vltg LDO Linear Reg A 595-TLV1117LV33DCYT,3.3V,1A,Regulator_Linear:AMS1117-3.3,Package_TO_SOT_SMD:SOT-223-3_TabPin2,https://www.ti.com/lit/gpn/tlv1117lv,595-TLV1117LV33DCYR,

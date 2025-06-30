@@ -7,7 +7,7 @@ tables:
   CBL: Cables, wires
   CON: Connectors
   CPD: Circuit protection devices
-  DIO: Diodes
+  DIO: Diodes, bridge rectifiers
   ICS: Integrated circuits
   IND: Inductors
   MCU: Microcontrollers, modules, etc.
@@ -24,9 +24,14 @@ tables:
 visible_symbol_fields:
   CAP: [Capacitance]
   CBL: [MPN]
-  CON: []
+  CON: [MPN]
+  CPD: [MPN]
+  DIO: [MPN]
+  ICS: [MPN]
   IND: [Inductance]
+  MCU: [MPN]
   MEC: [MPN, Value]
+  OPT: [Color]
   OSC: [Frequency]
   REG: [MPN, Voltage]
   RES: [Resistance]
@@ -34,8 +39,15 @@ visible_symbol_fields:
 value_field_sources:
   CAP: Capacitance
   CBL: MPN
+  CON: MPN
+  CPD: MPN
+  DIO: MPN
+  ICS: MPN
   IND: Inductance
+  MCU: MPN
+  OPT: Color
   OSC: Frequency
+  REG: MPN
   RES: Resistance
   SWI: MPN
   XTR: MPN

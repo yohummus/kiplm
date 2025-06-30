@@ -404,7 +404,7 @@
         {
           "column": "MPN",
           "name": "MPN",
-          "visible_on_add": false,
+          "visible_on_add": true,
           "visible_in_chooser": true,
           "show_name": false
         },
@@ -463,6 +463,13 @@
           "visible_on_add": false,
           "visible_in_chooser": true,
           "show_name": false
+        },
+        {
+          "column": "Value",
+          "name": "Value",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
         }
       ]
     },
@@ -483,7 +490,7 @@
         {
           "column": "MPN",
           "name": "MPN",
-          "visible_on_add": false,
+          "visible_on_add": true,
           "visible_in_chooser": true,
           "show_name": false
         },
@@ -535,6 +542,13 @@
           "visible_on_add": false,
           "visible_in_chooser": true,
           "show_name": false
+        },
+        {
+          "column": "Value",
+          "name": "Value",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
         }
       ]
     },
@@ -555,7 +569,7 @@
         {
           "column": "MPN",
           "name": "MPN",
-          "visible_on_add": false,
+          "visible_on_add": true,
           "visible_in_chooser": true,
           "show_name": false
         },
@@ -621,6 +635,13 @@
           "visible_on_add": false,
           "visible_in_chooser": true,
           "show_name": false
+        },
+        {
+          "column": "Value",
+          "name": "Value",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
         }
       ]
     },
@@ -641,7 +662,7 @@
         {
           "column": "MPN",
           "name": "MPN",
-          "visible_on_add": false,
+          "visible_on_add": true,
           "visible_in_chooser": true,
           "show_name": false
         },
@@ -690,6 +711,13 @@
         {
           "column": "DigiKey-PN",
           "name": "DigiKey-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Value",
+          "name": "Value",
           "visible_on_add": false,
           "visible_in_chooser": true,
           "show_name": false
@@ -813,7 +841,7 @@
         {
           "column": "MPN",
           "name": "MPN",
-          "visible_on_add": false,
+          "visible_on_add": true,
           "visible_in_chooser": true,
           "show_name": false
         },
@@ -862,6 +890,13 @@
         {
           "column": "DigiKey-PN",
           "name": "DigiKey-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Value",
+          "name": "Value",
           "visible_on_add": false,
           "visible_in_chooser": true,
           "show_name": false
@@ -999,7 +1034,7 @@
         {
           "column": "Color",
           "name": "Color",
-          "visible_on_add": false,
+          "visible_on_add": true,
           "visible_in_chooser": true,
           "show_name": false
         },
@@ -1055,6 +1090,13 @@
         {
           "column": "DigiKey-PN",
           "name": "DigiKey-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Value",
+          "name": "Value",
           "visible_on_add": false,
           "visible_in_chooser": true,
           "show_name": false
@@ -1313,6 +1355,13 @@
         {
           "column": "DigiKey-PN",
           "name": "DigiKey-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "Value",
+          "name": "Value",
           "visible_on_add": false,
           "visible_in_chooser": true,
           "show_name": false

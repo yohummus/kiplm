@@ -1,3 +1,5 @@
 IPN,MPN,Manufacturer,Description,Symbol,Footprint,Datasheet,Mouser-PN,DigiKey-PN
 MCU-0000-1XXX,SC1xxx,Raspberry Pi,Generic Raspberry Pi Compute Module 5,KiPLM_Symbols:Raspberry_Pi_CM5,KiPLM_Footprints:Raspberry_Pi_CM5_Clearance_0mm,https://datasheets.raspberrypi.com/cm5/cm5-datasheet.pdf,,
-MCU-0001-0000,STM32C071RBT6,STMicroelectronics,ARM Microcontrollers - MCU Mainstream Arm Cortex-M0+ MCU 128 Kbytes Flash 24 Kbytes RAM 48 MHz CPU 2x USART,KiPLM_Symbols:STM32C071RBTx,Package_QFP:LQFP-64_10x10mm_P0.5mm,https://www.st.com/resource/en/datasheet/stm32c071c8.pdf,511-STM32C071RBT6,
+MCU-0001-VET6,STM32G0B1VET6,STMicroelectronics,STM32G0 Cortex-M0+ 64MHz 512KB Flash 144KB RAM,KiPLM_Symbols:STM32G0B1VxT,Package_QFP:LQFP-100_14x14mm_P0.5mm,https://www.st.com/resource/en/datasheet/stm32g0b1cc.pdf,511-STM32G0B1VET6,
+MCU-0002-T6TR,STM32F103CBT6TR,STMicroelectronics,STM32F1 72MHz 128KB Flash 20KB RAM,MCU_ST_STM32F1:STM32F103CBTx,Package_QFP:LQFP-48_7x7mm_P0.5mm,https://www.st.com/resource/en/datasheet/stm32f103c8.pdf,511-STM32F103CBT6TR,
+MCU-0003-CET6,STM32G0B0CET6TR,STMicroelectronics,STM32G0 Cortex-M0+ 64MHz 512KB Flash 144KB RAM,MCU_ST_STM32G0:STM32G0B0CETx,Package_QFP:LQFP-48_7x7mm_P0.5mm,https://www.st.com/resource/en/datasheet/stm32g0b0ce.pdf,511-STM32G0B0CET6TR,

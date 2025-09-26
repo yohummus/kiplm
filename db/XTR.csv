@@ -1,3 +1,8 @@
 IPN,MPN,Manufacturer,Description,Symbol,Footprint,Datasheet,Mouser-PN,DigiKey-PN
-XTR-0000-000P,SI2323DDS-T1-GE3,Vishay,MOSFETs -20V Vds 8V Vgs SOT-23,Transistor_FET:TP0610T,Package_TO_SOT_SMD:SOT-23,https://www.vishay.com/doc?64004,78-SI2323DDS-T1-GE3,
-XTR-0001-35FU,"SSM6L35FU(TE85L,F)",Toshiba,MOSFETs N-Ch Sm Sig FET 0.1A -0.1A 20V 2-in1,KiPLM_Symbols:SSM6L35,Package_TO_SOT_SMD:SOT-363_SC-70-6,https://www.mouser.it/datasheet/2/408/SSM6L35FU_datasheet_en_20150909-1916117.pdf,757-SSM6L35FUTE85LF,
+XTR-0000-000P,SI2323DDS-T1-GE3,Vishay,MOSFETs P-Ch -20V Vds 8V Vgs SOT-23,Transistor_FET:TP0610T,Package_TO_SOT_SMD:SOT-23,https://www.vishay.com/doc?64004,78-SI2323DDS-T1-GE3,
+XTR-0001-35FU,SSM6L35FU,Toshiba,MOSFETs N/P-Ch Sm Sig FET 0.1A -0.1A 20V 2-in1,KiPLM_Symbols:SSM6L35,Package_TO_SOT_SMD:SOT-363_SC-70-6,https://www.mouser.it/datasheet/2/408/SSM6L35FU_datasheet_en_20150909-1916117.pdf,757-SSM6L35FUTE85LF,
+XTR-0002-NXAK,2N7002NXAKR,Nexperia,MOSFET N-CH 60V 300mA 4.5Ω Vgs=1.1V,Transistor_FET:2N7002,Package_TO_SOT_SMD:SOT-23,https://assets.nexperia.com/documents/data-sheet/2N7002NXAK.pdf,771-2N7002NXAKR,
+XTR-0003-88DP,SIRA88DP-T1-GE3,Vishay,MOSFETs 30V Vds 20V Vgs PowerPAK SO-8,Transistor_FET:Si7336ADP,KiPLM_Footprints:PowerPAK_SO-8_Single,https://www.vishay.com/doc?77777,78-SIRA88DP-T1-GE3,
+XTR-0004-LLH6,STL11N3LLH6,STMicroelectronics,MOSFETs N-Ch 30V 0.006 Ohm 11A STripFET VI Deep,KiPLM_Symbols:STL11N3LLH6,KiPLM_Footprints:ST_PowerFLAT_3.3x3.3mm,https://www.st.com/resource/en/datasheet/stl11n3llh6.pdf,511-STL11N3LLH6,
+XTR-0005-0UV7,DMG1024UV-7,Diodes Incorporated,Dual N-Channel MOSFETs 1V Vgs 1A,Transistor_FET:Q_Dual_NMOS_S1G1D2S2G2D1,Package_TO_SOT_SMD:SOT-563,https://www.mouser.it/datasheet/3/175/1/ds31974.pdf,621-DMG1024UV-7,
+XTR-0006-0UV7,DMG1023UV-7,Diodes Incorporated,Dual P-Channel MOSFETs -1V Vgs 1A,Transistor_FET:Q_Dual_PMOS_S1G1D2S2G2D1,Package_TO_SOT_SMD:SOT-563,https://4donline.ihs.com/images/VipMasterIC/IC/DIOD/DIOD-S-A0000774251/DIOD-S-A0000774251-1.pdf?hkey=CECEF36DEECDED6468708AAF2E19C0C6,621-DMG1023UV-7,

@@ -1,2 +1,5 @@
 IPN,MPN,Manufacturer,Description,Symbol,Footprint,Current,Voltage,Datasheet,Mouser-PN,DigiKey-PN
 DIO-0000-HD01,CD-HD01,Bourns,Bridge Rectifiers VRRM 100V 1A SMD MBS Bridge Rectifier,Device:D_Bridge_+AA-,KiPLM_Footprints:CD-HD,1A,100V,https://www.mouser.it/datasheet/2/54/cd-hd0x-1067095.pdf,652-CD-HD01,
+DIO-0001-KFIL,BAT54KFILM,STMicroelectronics,Schottky Diodes & Rectifiers schottky diode,Device:D_Schottky_Small,Diode_SMD:D_SOD-523,,,https://www.st.com/resource/en/datasheet/bat54.pdf,511-BAT54KFILM,
+DIO-0002-013V,MMSZ13T1G,onsemi,Zener Diodes 13V 500mW,Device:D_Zener_Small,Diode_SMD:D_SOD-123,5mA,13V,https://www.onsemi.com/download/data-sheet/pdf/mmsz2v4t1-d.pdf,863-MMSZ13T1G,
+DIO-0002-03V6,MMSZ3V6T1G,onsemi,Zener Diodes 3.6V 500mW,Device:D_Zener_Small,Diode_SMD:D_SOD-123,5mA,3.6V,https://www.onsemi.com/PowerSolutions/product.do?id=MMSZ3V6T1G,863-MMSZ3V6T1G,

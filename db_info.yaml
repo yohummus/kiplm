@@ -1,7 +1,7 @@
 ---
 tables:
   ANA: Op-amps, comparators, ADCs, DACs, etc.
-  ART: Artwork; parts with a BOM line
+  ART: Artwork; parts without a BOM line
   AUD: Audio, speakers, buzzers, microphones, etc.
   CAP: Capacitors
   CBL: Cables, wires
@@ -33,8 +33,9 @@ visible_symbol_fields:
   MEC: [MPN, Value]
   OPT: [Color]
   OSC: [Frequency]
-  REG: [MPN, Voltage]
+  REG: [MPN]
   RES: [Resistance]
+  XTR: [MPN]
 
 value_field_sources:
   CAP: Capacitance

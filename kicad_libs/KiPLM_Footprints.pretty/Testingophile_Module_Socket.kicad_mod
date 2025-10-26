@@ -6,7 +6,7 @@
 	(descr "PCIe M.2 connector, E key with M3 mounting nut")
 	(tags "Connector")
 	(property "Reference" "J**"
-		(at 9.25 3.9 0)
+		(at 9.25 -2.95 0)
 		(layer "F.SilkS")
 		(uuid "a82c3077-0276-468d-9f1a-03476963b084")
 		(effects
@@ -55,23 +55,13 @@
 	(attr through_hole)
 	(fp_line
 		(start -20.5 88.9)
-		(end -20.5 14.1)
+		(end -20.5 11.5)
 		(stroke
 			(width 1)
 			(type default)
 		)
 		(layer "F.SilkS")
 		(uuid "54010944-9947-48ec-a1d8-4fe4a1565362")
-	)
-	(fp_line
-		(start -17.900001 11.5)
-		(end -1 11.5)
-		(stroke
-			(width 1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "6c2dc862-8c8e-4d67-9996-d5de333be4ee")
 	)
 	(fp_line
 		(start -1.75 2.825)
@@ -154,16 +144,6 @@
 		(uuid "8e0aa1d6-e823-42db-9fbe-41c64c618281")
 	)
 	(fp_line
-		(start -0.5 11)
-		(end -0.5 9.5)
-		(stroke
-			(width 1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "7b190d21-74c7-456c-a59a-6a3aa560cbc7")
-	)
-	(fp_line
 		(start -0.05 -1.425)
 		(end -0.05 -1.425)
 		(stroke
@@ -212,26 +192,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "57aa213a-5d99-4fe6-a7ec-3ebceced76b2")
-	)
-	(fp_line
-		(start 19.5 11)
-		(end 19.5 9.5)
-		(stroke
-			(width 1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "25cea21d-5458-4199-8643-7671fbf03f4d")
-	)
-	(fp_line
-		(start 20 11.5)
-		(end 36.9 11.5)
-		(stroke
-			(width 1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "5e27d2ad-b0c3-4a85-ab9e-f8be70fb8c57")
 	)
 	(fp_line
 		(start 20.25 2.825)
@@ -304,7 +264,7 @@
 		(uuid "bbb008ab-58e2-4c1d-ab2c-4efb9bbcca04")
 	)
 	(fp_line
-		(start 39.5 14.1)
+		(start 39.5 11.5)
 		(end 39.5 88.9)
 		(stroke
 			(width 1)
@@ -312,17 +272,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "faa20bd2-0c51-414f-a0ff-1afcc6bb68b0")
-	)
-	(fp_arc
-		(start -20.5 14.1)
-		(mid -19.738478 12.261522)
-		(end -17.9 11.5)
-		(stroke
-			(width 1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "05442343-99ce-4977-aaca-5d4d24732ac0")
 	)
 	(fp_arc
 		(start -17.9 91.5)
@@ -334,17 +283,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "aaa690b8-d9fc-4445-86eb-b58d44efff32")
-	)
-	(fp_arc
-		(start -0.5 11)
-		(mid -0.646447 11.353553)
-		(end -1 11.5)
-		(stroke
-			(width 1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "3dc00a4f-7dcd-40f4-aed6-6c30284a24d1")
 	)
 	(fp_arc
 		(start -0.05 -1.425)
@@ -380,28 +318,6 @@
 		(uuid "da4d3e09-402d-4c9b-9524-267fa3f5e90f")
 	)
 	(fp_arc
-		(start 20 11.5)
-		(mid 19.646447 11.353553)
-		(end 19.5 11)
-		(stroke
-			(width 1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "31ad3b31-0f35-4815-be0d-821b91c43430")
-	)
-	(fp_arc
-		(start 36.9 11.5)
-		(mid 38.738478 12.261522)
-		(end 39.5 14.1)
-		(stroke
-			(width 1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "7be81b06-82fd-460d-b45e-006cd52516bb")
-	)
-	(fp_arc
 		(start 39.5 88.9)
 		(mid 38.738478 90.738478)
 		(end 36.9 91.5)
@@ -411,6 +327,16 @@
 		)
 		(layer "F.SilkS")
 		(uuid "a66994ba-967e-45a1-af01-0f5602643e2d")
+	)
+	(fp_line
+		(start -0.5 3.525)
+		(end 19 3.525)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "9c6c91d0-d92a-4c9e-bc6b-947384b8c508")
 	)
 	(fp_line
 		(start -22 13.8)
@@ -575,6 +501,38 @@
 		)
 		(layer "F.Fab")
 		(uuid "4a48970e-69a1-4227-acbb-0066e0b655b3")
+	)
+	(fp_line
+		(start -17.899999 7.5)
+		(end 36.9 7.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "2e43cbd4-c914-4e3b-a3cf-dce4f332e184")
+	)
+	(fp_arc
+		(start -20.499999 10.1)
+		(mid -19.738477 8.261522)
+		(end -17.899999 7.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "d19df59a-8e13-469a-85f6-4dba84cc0f3f")
+	)
+	(fp_arc
+		(start 36.9 7.5)
+		(mid 38.738478 8.261522)
+		(end 39.5 10.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "f0f9d775-7a13-4e19-973e-b9f7fb4b69ff")
 	)
 	(fp_text user "TESTINGOPHILE MODULE"
 		(at 9.5 17.8 0)
@@ -813,8 +771,21 @@
 			)
 		)
 	)
+	(fp_text user "Module PCB edge"
+		(at 2.6 5 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "b4f76e23-7462-43eb-af47-7316436ab491")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "${REFERENCE}"
-		(at 9.25 3.9 0)
+		(at 9.25 -2.95 0)
 		(layer "F.Fab")
 		(uuid "27e50e2d-9540-4e1c-b6b8-17a1a9cb96f7")
 		(effects
@@ -822,6 +793,19 @@
 				(size 1.27 1.27)
 				(thickness 0.254)
 			)
+		)
+	)
+	(fp_text user "Module edge"
+		(at -14.7 6.9 0)
+		(unlocked yes)
+		(layer "User.1")
+		(uuid "7c60d01c-08a5-40b3-a62f-07a162425f9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
 		)
 	)
 	(fp_text_box ""

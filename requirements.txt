@@ -4,3 +4,5 @@ asyncinotify~=4.0.0
 colorama~=0.4.6
 pandas~=2.2.3
 PyYAML~=6.0.2
+enlighten~=1.14.1
+requests==2.32.5

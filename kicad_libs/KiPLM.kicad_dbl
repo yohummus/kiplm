@@ -82,6 +82,13 @@
           "visible_on_add": false,
           "visible_in_chooser": true,
           "show_name": false
+        },
+        {
+          "column": "LCSC-PN",
+          "name": "LCSC-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
         }
       ]
     },
@@ -198,6 +205,13 @@
           "visible_on_add": false,
           "visible_in_chooser": true,
           "show_name": false
+        },
+        {
+          "column": "LCSC-PN",
+          "name": "LCSC-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
         }
       ]
     },
@@ -307,6 +321,13 @@
           "show_name": false
         },
         {
+          "column": "LCSC-PN",
+          "name": "LCSC-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
           "column": "Value",
           "name": "Value",
           "visible_on_add": false,
@@ -381,6 +402,13 @@
         {
           "column": "DigiKey-PN",
           "name": "DigiKey-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "LCSC-PN",
+          "name": "LCSC-PN",
           "visible_on_add": false,
           "visible_in_chooser": true,
           "show_name": false
@@ -465,6 +493,13 @@
           "show_name": false
         },
         {
+          "column": "LCSC-PN",
+          "name": "LCSC-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
           "column": "Value",
           "name": "Value",
           "visible_on_add": false,
@@ -539,6 +574,13 @@
         {
           "column": "DigiKey-PN",
           "name": "DigiKey-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "LCSC-PN",
+          "name": "LCSC-PN",
           "visible_on_add": false,
           "visible_in_chooser": true,
           "show_name": false
@@ -637,6 +679,13 @@
           "show_name": false
         },
         {
+          "column": "LCSC-PN",
+          "name": "LCSC-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
           "column": "Value",
           "name": "Value",
           "visible_on_add": false,
@@ -711,6 +760,13 @@
         {
           "column": "DigiKey-PN",
           "name": "DigiKey-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "LCSC-PN",
+          "name": "LCSC-PN",
           "visible_on_add": false,
           "visible_in_chooser": true,
           "show_name": false
@@ -816,6 +872,13 @@
           "show_name": false
         },
         {
+          "column": "LCSC-PN",
+          "name": "LCSC-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
           "column": "Value",
           "name": "Value",
           "visible_on_add": false,
@@ -890,6 +953,13 @@
         {
           "column": "DigiKey-PN",
           "name": "DigiKey-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "LCSC-PN",
+          "name": "LCSC-PN",
           "visible_on_add": false,
           "visible_in_chooser": true,
           "show_name": false
@@ -976,6 +1046,13 @@
         {
           "column": "DigiKey-PN",
           "name": "DigiKey-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "LCSC-PN",
+          "name": "LCSC-PN",
           "visible_on_add": false,
           "visible_in_chooser": true,
           "show_name": false
@@ -1095,6 +1172,13 @@
           "show_name": false
         },
         {
+          "column": "LCSC-PN",
+          "name": "LCSC-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
           "column": "Value",
           "name": "Value",
           "visible_on_add": false,
@@ -1195,6 +1279,13 @@
           "show_name": false
         },
         {
+          "column": "LCSC-PN",
+          "name": "LCSC-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
           "column": "Value",
           "name": "Value",
           "visible_on_add": false,
@@ -1269,6 +1360,13 @@
         {
           "column": "DigiKey-PN",
           "name": "DigiKey-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "LCSC-PN",
+          "name": "LCSC-PN",
           "visible_on_add": false,
           "visible_in_chooser": true,
           "show_name": false
@@ -1355,6 +1453,13 @@
         {
           "column": "DigiKey-PN",
           "name": "DigiKey-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "LCSC-PN",
+          "name": "LCSC-PN",
           "visible_on_add": false,
           "visible_in_chooser": true,
           "show_name": false
@@ -1481,6 +1586,13 @@
           "show_name": false
         },
         {
+          "column": "LCSC-PN",
+          "name": "LCSC-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
           "column": "Value",
           "name": "Value",
           "visible_on_add": false,
@@ -1558,6 +1670,13 @@
           "visible_on_add": false,
           "visible_in_chooser": true,
           "show_name": false
+        },
+        {
+          "column": "LCSC-PN",
+          "name": "LCSC-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
         }
       ]
     },
@@ -1627,6 +1746,13 @@
         {
           "column": "DigiKey-PN",
           "name": "DigiKey-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "LCSC-PN",
+          "name": "LCSC-PN",
           "visible_on_add": false,
           "visible_in_chooser": true,
           "show_name": false
@@ -1706,6 +1832,13 @@
         {
           "column": "DigiKey-PN",
           "name": "DigiKey-PN",
+          "visible_on_add": false,
+          "visible_in_chooser": true,
+          "show_name": false
+        },
+        {
+          "column": "LCSC-PN",
+          "name": "LCSC-PN",
           "visible_on_add": false,
           "visible_in_chooser": true,
           "show_name": false

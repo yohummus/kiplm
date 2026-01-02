@@ -13,25 +13,30 @@ import re
 import sqlite3
 import sys
 import traceback
+import urllib.request
+import sqlite3
 from argparse import Namespace, ArgumentParser
 from pathlib import Path
 from typing import Generator
 
-from aiohttp import web
-from colorama import Fore, Style
 import argcomplete
 import asyncinotify
 import pandas
 import yaml
+import enlighten
+import requests
+from aiohttp import web
+from colorama import Fore, Style
 
 
-ROOT_DIR       = Path(__file__).parent
-FRONTEND_DIR   = ROOT_DIR / 'frontend'
-DB_DIR         = ROOT_DIR / 'db'
-SQLITE_FILE    = ROOT_DIR / 'kicad_libs/parts.sqlite'
-KICAD_DBL_FILE = ROOT_DIR / 'kicad_libs/KiPLM.kicad_dbl'
-DB_INFO_FILE   = ROOT_DIR / 'db_info.yaml'
-MONKEY_API_URI = '/monkey-api/'
+ROOT_DIR          = Path(__file__).parent
+FRONTEND_DIR      = ROOT_DIR / 'frontend'
+DB_DIR            = ROOT_DIR / 'db'
+SQLITE_FILE       = ROOT_DIR / 'kicad_libs/parts.sqlite'
+KICAD_DBL_FILE    = ROOT_DIR / 'kicad_libs/KiPLM.kicad_dbl'
+DB_INFO_FILE      = ROOT_DIR / 'db_info.yaml'
+MONKEY_API_URI    = '/monkey-api/'
+DOWNLOAD_PBAR_FMT = '{desc}{desc_pad}{percentage:3.0f}%|{bar}| {count:!.2j}{unit} / {total:!.2j}{unit} [{elapsed}<{eta}, {rate:!.2j}{unit}/s]'
 
 api_routes = web.RouteTableDef()
 
@@ -47,7 +52,7 @@ def main() -> None:
     cmd_generators = {}
     for fn_name, fn in inspect.getmembers(sys.modules[__name__], inspect.isfunction):
         if fn_name.startswith('run_cmd_'):
-            cmd_name = fn_name.partition('run_cmd_')[2]
+            cmd_name = fn_name.partition('run_cmd_')[2].replace('_', '-')
             fn_brief = fn.__doc__.partition('\n\n')[0].strip()
             sp = subparsers.add_parser(cmd_name, help=fn_brief)
             gen = fn(sp)
@@ -111,6 +116,78 @@ def run_cmd_dev(sp: ArgumentParser) -> Generator[None, Namespace, None]:
     
     loop.run_forever()
     
+    
+def run_cmd_add_lcsc_pns(sp: ArgumentParser) -> Generator[None, Namespace, None]:
+    """Automatically searches for and adds LCSC part numbers to all existing parts in the database."""
+    
+    # Add and parse the command line arguments
+    sp.add_argument('--download', action='store_true',
+                    help='always download the latest LCSC parts database')
+    
+    cmd_line_args = yield
+    
+    # Download the latest LCSC parts database
+    url = 'https://cdfer.github.io/jlcpcb-parts-database/jlcpcb-components.sqlite3'
+    lcsc_sqlite_file = ROOT_DIR / 'lcsc_parts.sqlite3'
+    lcsc_sqlite_file_part = Path(str(lcsc_sqlite_file) + '.part')
+    if cmd_line_args.download or not lcsc_sqlite_file.exists():
+        with ok_fail(f'Downloading LCSC parts database from {url}'):
+            # Get the uncompressed size of the file
+            resp = requests.head(url, headers={'accept-encoding':''})
+            resp.raise_for_status()
+            size = resp.headers.get('content-length')
+            
+            # Download the file
+            resp = requests.get(url, stream=True)
+            resp.raise_for_status()
+            
+            with open(lcsc_sqlite_file_part, 'wb') as fh:
+                if size:
+                    with enlighten.Manager() as mgr:
+                        with mgr.counter(total=float(size), desc='Downloading', unit='B', bar_format=DOWNLOAD_PBAR_FMT) as pbar:
+                            for chunk in resp.iter_content(8 * 1024):
+                                fh.write(chunk)
+                                pbar.update(len(chunk))
+                else:
+                    fh.write(resp.content)
+
+            lcsc_sqlite_file_part.rename(lcsc_sqlite_file)
+            
+    # Update the CSV files with LCSC part numbers
+    with sqlite3.connect(lcsc_sqlite_file) as lcsc_db:
+        for csv_file in sorted(DB_DIR.glob('*.csv')):
+
+            # Check that the CSV file has an LCSC-PN column
+            with csv_file.open('r') as fh:
+                header = fh.readline()
+                
+            if 'LCSC-PN' not in header:
+                print(f'Skipping {csv_file.name} (no LCSC-PN column)')
+                continue
+            
+            # Add LCSC part numbers where missing (if we find them)
+            msgs = []
+            with ok_fail(f'Processing {csv_file.name}'):
+                df = pandas.read_csv(csv_file, dtype=str, keep_default_na=False)
+                if 'LCSC-PN' not in df.columns:
+                    continue
+                
+                for idx, row in df.iterrows():
+                    if row['LCSC-PN']:
+                        continue
+                    
+                    cur = lcsc_db.execute(f"SELECT lcsc FROM components WHERE mfr LIKE '{row["MPN"]}%' ORDER BY stock DESC LIMIT 1")
+                    res = cur.fetchone()
+                    if res:
+                        lcsc_pn = f'C{res[0]}'
+                        df.at[idx, 'LCSC-PN'] = lcsc_pn
+                        msgs.append(f'Added LCSC part number for {row["Manufacturer"]} {row["MPN"]}: {lcsc_pn}')
+                
+                df.to_csv(csv_file, index=False)
+                
+            # Print all added parts
+            for msg in msgs:
+                print(msg)
     
 @api_routes.get(MONKEY_API_URI + 'injected_code.js')
 async def monkey_api_get_injected_code(request: web.Request) -> web.Response:

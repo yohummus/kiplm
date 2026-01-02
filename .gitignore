@@ -3,3 +3,4 @@ __pycache__
 *.bak
 scratch.*
 pref_*.csv
+lcsc_parts.sqlite3

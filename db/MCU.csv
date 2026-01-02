@@ -1,6 +1,6 @@
-IPN,MPN,Manufacturer,Description,Symbol,Footprint,Datasheet,Mouser-PN,DigiKey-PN
-MCU-0000-1XXX,SC1xxx,Raspberry Pi,Generic Raspberry Pi Compute Module 5,KiPLM_Symbols:Raspberry_Pi_CM5,KiPLM_Footprints:Raspberry_Pi_CM5_Clearance_0mm,https://datasheets.raspberrypi.com/cm5/cm5-datasheet.pdf,,
-MCU-0001-VET6,STM32G0B1VET6,STMicroelectronics,STM32G0 Cortex-M0+ 64MHz 512KB Flash 144KB RAM,KiPLM_Symbols:STM32G0B1VxT,Package_QFP:LQFP-100_14x14mm_P0.5mm,https://www.st.com/resource/en/datasheet/stm32g0b1cc.pdf,511-STM32G0B1VET6,
-MCU-0002-T6TR,STM32F103CBT6TR,STMicroelectronics,STM32F1 72MHz 128KB Flash 20KB RAM,MCU_ST_STM32F1:STM32F103CBTx,Package_QFP:LQFP-48_7x7mm_P0.5mm,https://www.st.com/resource/en/datasheet/stm32f103c8.pdf,511-STM32F103CBT6TR,
-MCU-0003-CET6,STM32G0B0CET6TR,STMicroelectronics,STM32G0 Cortex-M0+ 64MHz 512KB Flash 144KB RAM,MCU_ST_STM32G0:STM32G0B0CETx,Package_QFP:LQFP-48_7x7mm_P0.5mm,https://www.st.com/resource/en/datasheet/stm32g0b0ce.pdf,511-STM32G0B0CET6TR,
-MCU-0004-C6T6,STM32C031C6T6,STMicroelectronics,STM32C0 Cortex-M0+ 48MHz 32KB Flash 12KB RAM,MCU_ST_STM32C0:STM32C031C6Tx,Package_QFP:LQFP-48_7x7mm_P0.5mm,https://www.st.com/resource/en/datasheet/stm32c031c4.pdf,511-STM32C031C6T6,
+IPN,MPN,Manufacturer,Description,Symbol,Footprint,Datasheet,Mouser-PN,DigiKey-PN,LCSC-PN
+MCU-0000-1XXX,SC1xxx,Raspberry Pi,Generic Raspberry Pi Compute Module 5,KiPLM_Symbols:Raspberry_Pi_CM5,KiPLM_Footprints:Raspberry_Pi_CM5_Clearance_0mm,https://datasheets.raspberrypi.com/cm5/cm5-datasheet.pdf,,,
+MCU-0001-VET6,STM32G0B1VET6,STMicroelectronics,STM32G0 Cortex-M0+ 64MHz 512KB Flash 144KB RAM,KiPLM_Symbols:STM32G0B1VxT,Package_QFP:LQFP-100_14x14mm_P0.5mm,https://www.st.com/resource/en/datasheet/stm32g0b1cc.pdf,511-STM32G0B1VET6,,C2829192
+MCU-0002-T6TR,STM32F103CBT6TR,STMicroelectronics,STM32F1 72MHz 128KB Flash 20KB RAM,MCU_ST_STM32F1:STM32F103CBTx,Package_QFP:LQFP-48_7x7mm_P0.5mm,https://www.st.com/resource/en/datasheet/stm32f103c8.pdf,511-STM32F103CBT6TR,,C279569
+MCU-0003-CET6,STM32G0B0CET6TR,STMicroelectronics,STM32G0 Cortex-M0+ 64MHz 512KB Flash 144KB RAM,MCU_ST_STM32G0:STM32G0B0CETx,Package_QFP:LQFP-48_7x7mm_P0.5mm,https://www.st.com/resource/en/datasheet/stm32g0b0ce.pdf,511-STM32G0B0CET6TR,,
+MCU-0004-C6T6,STM32C031C6T6,STMicroelectronics,STM32C0 Cortex-M0+ 48MHz 32KB Flash 12KB RAM,MCU_ST_STM32C0:STM32C031C6Tx,Package_QFP:LQFP-48_7x7mm_P0.5mm,https://www.st.com/resource/en/datasheet/stm32c031c4.pdf,511-STM32C031C6T6,,C5456218

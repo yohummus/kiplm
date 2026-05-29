@@ -1,2 +1,3 @@
 IPN,MPN,Manufacturer,Description,Symbol,Footprint,Datasheet,Mouser-PN,DigiKey-PN,LCSC-PN
 ANA-0000-IDBV,OPA310IDBVR,Texas Instruments,Operational Amplifiers - Op Amps Single 5.5-V 3-MHz high-output-current,Amplifier_Operational:OPA310xDBV,Package_TO_SOT_SMD:SOT-23-5,https://www.ti.com/lit/gpn/opa310,595-OPA310IDBVR,,C7464112
+ANA-0001-IDCK,OPA310SIDCKR,Texas Instruments,Operational Amplifiers - Op Amps Single 5.5-V 3-MHz h igh-output-current,Amplifier_Operational:OPA310SxDCK,Package_TO_SOT_SMD:Texas_R-PDSO-G6,https://www.ti.com/lit/gpn/opa310,595-OPA310SIDCKR,,
